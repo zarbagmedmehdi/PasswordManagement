@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="460.0" prefWidth="262.0" style="-fx-background-color: #001D57;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SideBarController">
+    <children>
+        <VBox prefHeight="463.0" prefWidth="262.0" style="-fx-color: #001D57;">
+            <children>
+                <Label prefHeight="74.0" prefWidth="287.0" text="MENU" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="Ebrima Bold" size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <padding>
+                        <Insets bottom="25.0" left="50.0" right="25.0" top="25.0" />
+                    </padding>
+               <styleClass>
+                  <String fx:value="header" />
+                  <String fx:value="background" />
+               </styleClass></Label>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#gotoDashboard" prefHeight="50.0" prefWidth="262.0">
+                            <graphic>
+                                <Label text="Acceuil" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children></HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#goToAjoutPassword" prefHeight="50.0" prefWidth="262.0">
+                            <graphic>
+                                <Label text="Créer password" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#goToAjoutNote" prefHeight="50.0" prefWidth="262.0">
+                            <graphic>
+                                <Label text="Créer note" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="266.0">
+                            <graphic>
+                                <Label text="Accorder Rôle" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="264.0">
+                            <graphic>
+                                <Label text="Activer/Désacticer Rôle" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="268.0">
+                            <graphic>
+                                <Label text="Retirer Rôle" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="265.0">
+                            <graphic>
+                                <Label text="Rechercher Rôle" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="271.0">
+                            <graphic>
+                                <Label text="Supprimer Rôle" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#disconnect" prefHeight="53.0" prefWidth="271.0">
+                            <graphic>
+                                <Label text="Deconnexion" textFill="#b5b1b1">
+                                    <font>
+                                        <Font name="Calibri" size="14.0" />
+                                    </font>
+
+                                </Label>
+                            </graphic>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

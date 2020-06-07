@@ -2,6 +2,7 @@ import Bean.Password;
 import Service.LoginService;
 import Service.NoteService;
 import Service.PasswordService;
+import Service.QuestionService;
 
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -14,6 +15,7 @@ public class Server {
       LoginThread lg=new LoginThread();
        PasswordThread ps=new PasswordThread();
         NoteThread ns=new NoteThread();
+        QuestionThread qs=new QuestionThread();
 
 }}
 
@@ -78,6 +80,26 @@ class NoteThread extends Thread
         Naming.rebind("noteService",ns);
         System.out.println(
                 "lobjet distant NoteService est enregitsté dans XRmiExample ... serveur Pret"
+        );
+    } }
+class QuestionThread extends Thread
+{
+    public QuestionThread() {this.start();
+    }
+
+    @Override
+    public void run() {
+        try {
+            serve(); } catch (RemoteException e) { e.printStackTrace(); } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+    }
+    public void serve() throws RemoteException, MalformedURLException {
+        QuestionService ns=new QuestionService();
+        LocateRegistry.createRegistry(1096);
+        Naming.rebind("questionService",ns);
+        System.out.println(
+                "lobjet distant QuestionService est enregitsté dans XRmiExample ... serveur Pret"
         );
     } }
 

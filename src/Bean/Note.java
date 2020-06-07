@@ -74,7 +74,6 @@ public class Note implements Serializable {
 
     @Override
     public String toString() {
-        final DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
 
         return
 

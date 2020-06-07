@@ -105,7 +105,7 @@ TextField passwordFieldClear;
        {
            Password p=new Password(passwordFieldClear.getText(),loginField.getText() ,
                    new Date(), new Date(),siteField.getText(),
-                  new User(Integer.parseInt(Session.getAttribut("id").toString())));
+                 Integer.parseInt(Session.getAttribut("id").toString()));
           ps.ajouterPassword(p);
           // ps.cc(1);
        }

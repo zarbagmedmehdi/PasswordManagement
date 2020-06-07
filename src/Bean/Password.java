@@ -5,16 +5,28 @@ import java.util.Date;
 //@Auteur:ZARBAG
 //Classe password
 public class Password implements Serializable {
+    @DBTable(columnName ="id")
+    private int id;
+    @DBTable(columnName ="motDepasse")
 
-    private long id;
     private String motDepasse;
-    private String identifiant;
-    private Date dateCreation;
-    private Date dateModification;
-    private String site;
-   private User user;
+    @DBTable(columnName ="identifiant")
 
-    public Password( String motDepasse, String identifiant, Date dateCreation, Date dateModification, String site,User user) {
+    private String identifiant;
+    @DBTable(columnName ="dateCreation")
+
+    private Date dateCreation;
+    @DBTable(columnName ="dateModification")
+
+    private Date dateModification;
+    @DBTable(columnName ="site")
+
+    private String site;
+    @DBTable(columnName ="user")
+
+    private int user;
+
+    public Password( String motDepasse, String identifiant, Date dateCreation, Date dateModification, String site,int user) {
         this.motDepasse = motDepasse;
         this.identifiant = identifiant;
         this.dateCreation = dateCreation;
@@ -23,27 +35,27 @@ public class Password implements Serializable {
         this.user = user;
     }
 
-    public Password(long id) {
+    public Password(int id) {
         this.id = id;
     }
 
     public Password() {
     }
 
-    public User getUser() {
+    public int getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(int user) {
         this.user = user;
     }
 
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -89,14 +101,11 @@ public class Password implements Serializable {
 
     @Override
     public String toString() {
-        return "Password{" +
-                "id=" + id +
-                ", motDepasse='" + motDepasse + '\'' +
-                ", identifiant='" + identifiant + '\'' +
-                ", dateCreation=" + dateCreation +
-                ", dateModification=" + dateModification +
-                ", site='" + site + '\'' +
-                ", user=" + user +
-                '}';
+        return
+
+                " Login:'" + identifiant + '\'' +
+
+                ", site:'" + site + '\'' ;
+
     }
 }

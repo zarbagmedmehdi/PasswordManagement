@@ -3,12 +3,30 @@ package util;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextInputDialog;
 
 import java.util.ArrayList;
 import java.util.Optional;
 
 public class AlertUtil {
-    //normal alert
+    public  static Boolean showInputalert(String title,String question,String reponse) {
+
+    TextInputDialog dialog = new TextInputDialog("réponse");
+dialog.setTitle("Text Input Dialog");
+dialog.setHeaderText(title);
+dialog.setContentText(question);
+
+    Optional<String> result = dialog.showAndWait();
+if (result.isPresent()){
+      if(result.get().equals(reponse))
+      return true;
+      else return false;
+    }
+else
+    return false;
+
+//result.ifPresent(name -> System.out.println("Your name: " + name));
+    }
     public  static void showAlert(String title,String message) {
         Alert alert = new Alert(Alert.AlertType.WARNING);
         alert.setTitle(title);

@@ -11,7 +11,7 @@ public class DbHelper {
         public static Connection GetDatabaseConnection() {
             Connection connection = null;
 
-            String dbUrl = "jdbc:mysql://localhost:3306/passwordmanagement";
+            String dbUrl = "jdbc:mysql://localhost:3306/passwordmanagement?zeroDateTimeBehavior=convertToNull";
             String user = "root";
             String pass = "";
             try {

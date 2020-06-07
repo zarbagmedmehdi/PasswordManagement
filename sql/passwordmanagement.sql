@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 05 juin 2020 à 00:57
+-- Généré le : Dim 07 juin 2020 à 03:40
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP : 7.4.5
 
@@ -48,7 +48,7 @@ CREATE TABLE `note` (
 --
 
 CREATE TABLE `password` (
-  `id` int(10) NOT NULL,
+  `id` int(5) NOT NULL,
   `motDepasse` varchar(255) NOT NULL,
   `identifiant` varchar(255) NOT NULL,
   `dateCreation` date NOT NULL,
@@ -61,6 +61,25 @@ CREATE TABLE `password` (
 -- Déchargement des données de la table `password`
 --
 
+
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `questionreponse`
+--
+
+CREATE TABLE `questionreponse` (
+  `id` int(5) NOT NULL,
+  `date` date NOT NULL,
+  `user` int(5) NOT NULL,
+  `question` varchar(255) NOT NULL,
+  `reponse` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `questionreponse`
+--
 
 
 -- --------------------------------------------------------
@@ -99,6 +118,12 @@ ALTER TABLE `password`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Index pour la table `questionreponse`
+--
+ALTER TABLE `questionreponse`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Index pour la table `user`
 --
 ALTER TABLE `user`
@@ -118,7 +143,13 @@ ALTER TABLE `note`
 -- AUTO_INCREMENT pour la table `password`
 --
 ALTER TABLE `password`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT pour la table `questionreponse`
+--
+ALTER TABLE `questionreponse`
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT pour la table `user`
