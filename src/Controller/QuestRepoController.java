@@ -68,7 +68,7 @@ public class QuestRepoController implements Initializable {
             questionField.setText("");
             reponseField.setText("");
             fetchQuestions();
-            AlertUtil.showAlert("Succées","Question/réponse Enregistré", Alert.AlertType.CONFIRMATION);
+            AlertUtil.showAlert("Succes","Question/réponse Enregistré", Alert.AlertType.CONFIRMATION);
 
         }
 }

@@ -56,13 +56,7 @@ else
         alert.setContentText("Veuillez saisir des identifiants de longueur plus de 6 caracteres");
         alert.showAndWait();
     }
-    public static void urlStringError() {
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("Erreur");
-        alert.setHeaderText("connexion:");
-        alert.setContentText("Veuillez saisir les informations de l'URL de connexion");
-        alert.showAndWait();
-    }
+
     public static boolean showConfirmation(String title, String message) {
 
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);

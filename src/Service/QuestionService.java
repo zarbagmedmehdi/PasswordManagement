@@ -39,7 +39,5 @@ public class QuestionService extends UnicastRemoteObject implements QuestionServ
 
     @Override
     public ArrayList<QuestionReponse> getAllQuesion(int id) throws Exception {
-        System.out.println("Service");
-        System.out.println(DaoEngigne.selectQuery(Note.class,DaoEngigne.getAllObejctsByForeignKey(new Note(),"user",id,"")));
         return (ArrayList<QuestionReponse>) DaoEngigne.selectQuery(QuestionReponse.class,DaoEngigne.getAllObejctsByForeignKey(new QuestionReponse(),"user",id,""));    }
 }

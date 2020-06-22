@@ -10,10 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- *
- * @author ACER
- */
+
 public class SearchUtil {
 
     public static BigDecimal generateMaxList(List<BigDecimal> list) {

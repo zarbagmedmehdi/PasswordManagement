@@ -9,10 +9,7 @@ import java.util.List;
 import java.util.Properties;
 
 
-/**
- *
- * @author moulaYounes
- */
+
 public class Session {
 
     private static List<SessionItem> myMap = new ArrayList<>();

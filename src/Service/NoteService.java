@@ -35,14 +35,12 @@ public class NoteService extends UnicastRemoteObject implements NoteServiceInter
         Connection conn = DbHelper.GetDatabaseConnection();
         int result = 0;
         String extras=" and titre  LIKE'%"+titre+"%'"+" OR contenu  LIKE'%"+titre+"%'";
-        System.out.println(DaoEngigne.selectQuery(Note.class,DaoEngigne.getAllObejctsByForeignKey(new Note(),"user",id,extras)));
         return (ArrayList<Note>) DaoEngigne.selectQuery(Note.class,DaoEngigne.getAllObejctsByForeignKey(new Note(),"user",id,extras));
 
     }
     public ArrayList<Note> getAllNotes(int id) throws Exception {
         Connection conn = DbHelper.GetDatabaseConnection();
         int result = 0;
-        System.out.println(DaoEngigne.selectQuery(Note.class,DaoEngigne.getAllObejctsByForeignKey(new Note(),"user",id,"")));
         return (ArrayList<Note>) DaoEngigne.selectQuery(Note.class,DaoEngigne.getAllObejctsByForeignKey(new Note(),"user",id,""));
 
     }
@@ -51,7 +49,6 @@ public class NoteService extends UnicastRemoteObject implements NoteServiceInter
         int result = 0;
         PreparedStatement preparedStatement=conn.prepareStatement( DaoEngigne.constructDaoDeleteRequette(note));
 result=preparedStatement.executeUpdate();
-        System.out.println(result);
 return result;
     }
     public int updateNote(Note note) throws Exception {
@@ -59,7 +56,6 @@ return result;
         int result = 0;
         PreparedStatement preparedStatement=conn.prepareStatement( DaoEngigne.constructDaoUpdateRequette(note,note.getId()));
         result=preparedStatement.executeUpdate();
-        System.out.println(result);
         return result;
     }
 

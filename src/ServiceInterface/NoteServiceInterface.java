@@ -1,11 +1,9 @@
 package ServiceInterface;
 
 import Bean.Note;
-import Bean.User;
 
 import java.rmi.Remote;
-import java.rmi.RemoteException;
-import java.sql.SQLException;
+
 import java.util.ArrayList;
 
 public interface NoteServiceInterface extends Remote {

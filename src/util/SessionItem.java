@@ -4,10 +4,7 @@
  */
 package util;
 
-/**
- *
- * @author moulaYounes
- */
+
 public class SessionItem {
     private String key;
     private Object object;

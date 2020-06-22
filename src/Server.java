@@ -12,10 +12,10 @@ import java.util.ArrayList;
 
 public class Server {
     public static void main(String[] args) throws RemoteException, MalformedURLException {
-      LoginThread lg=new LoginThread();
-       PasswordThread ps=new PasswordThread();
-        NoteThread ns=new NoteThread();
-        QuestionThread qs=new QuestionThread();
+      LoginThread loginThread=new LoginThread();
+       PasswordThread passwordThread=new PasswordThread();
+        NoteThread noteThread=new NoteThread();
+        QuestionThread questionThread=new QuestionThread();
 
 }}
 

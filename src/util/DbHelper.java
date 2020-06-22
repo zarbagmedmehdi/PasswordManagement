@@ -17,7 +17,7 @@ public class DbHelper {
             try {
                 Class.forName("com.mysql.jdbc.Driver");
                 connection = DriverManager.getConnection(dbUrl, user, pass);
-                System.out.println("connection successful");
+                System.out.println("connection a abouti");
             } catch (ClassNotFoundException e) {
                 e.getLocalizedMessage();
                 e.printStackTrace();

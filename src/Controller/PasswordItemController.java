@@ -63,7 +63,7 @@ loginField1.setDisable(true);
         selected= (Password) Session.getAttribut("selectedPassword");
         loginField1.setText(selected.getIdentifiant());
         passwordField.setText(selected.getMotDepasse());
-        creation.setText("Date Création : "+selected.getDateCreation());
+        creation.setText("Date Création  : "+selected.getDateCreation());
         modification.setText("Date modification : "+selected.getDateModification());
         site.setText(selected.getSite());
     }

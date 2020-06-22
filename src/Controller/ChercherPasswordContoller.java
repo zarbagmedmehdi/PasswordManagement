@@ -65,7 +65,6 @@ public class ChercherPasswordContoller  implements Initializable {
         } catch (RemoteException e) {
             e.printStackTrace();
         }
-        System.out.println();
 fetchPasswords();
         setPasswordListView();
     }
@@ -128,8 +127,7 @@ siteField.setText("twitter");
         try {
             passwordObservableList= FXCollections.observableList
                     (ps.getAllPasswords(Integer.parseInt(Session.getAttribut("id").toString())));
-            System.out.println("ha list"+ FXCollections.observableList
-                    (ps.getAllPasswords(Integer.parseInt(Session.getAttribut("id").toString()))));
+
         } catch (Exception e) {
             e.printStackTrace();
         }

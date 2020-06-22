@@ -74,7 +74,6 @@ public class AjouterNoteController   implements Initializable {
                 selected=nv;
                 form1( nv,true);
                 noteAnchorPane1.setVisible(true);
-                System.out.println(nv.getId());
             }
         });
 

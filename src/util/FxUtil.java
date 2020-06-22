@@ -14,11 +14,11 @@ public class FxUtil {
     public static boolean isFilled(TextArea textArea){
         return !textArea.getText().equals("");
     }
-    public static int getRandom(int minLength){
+    public static int getRandom(int minValue){
 
     Random r = new Random();
     int low = 0;
-    int high = minLength;
+    int high = minValue;
    return r.nextInt(high-low) + low;
     }
     public static boolean isLength(TextField textField,int minLength){

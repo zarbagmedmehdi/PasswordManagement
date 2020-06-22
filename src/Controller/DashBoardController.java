@@ -13,6 +13,6 @@ public class DashBoardController  implements Initializable {
     Label label;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        label.setText(Session.getAttribut("login").toString());
+        label.setText(Session.getAttribut("login ").toString());
     }
 }

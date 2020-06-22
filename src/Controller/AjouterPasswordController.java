@@ -83,7 +83,6 @@ TextField passwordFieldClear;
         } catch (RemoteException e) {
             e.printStackTrace();
         }
-        System.out.println();
     }
 
 
