@@ -4,135 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/Controller/Client.java" line="42" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="first Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3352039e-a761-45db-8531-e1f768a1e4be.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/DarkPurpleTheme.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_43_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PasswordManagement.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Bean/DBTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Bean/Note.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Bean/Password.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/AjouterNoteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/AjouterPasswordController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/AjouterPasswordController$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/AjouterPasswordController$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/AjouterPasswordController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/DashBoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Controller/SideBarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Db/DbHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/LoginThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/META-INF/BankE.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/NoteThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/PasswordThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Service/LoginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Service/NoteService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/Service/PasswordService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/ServiceInterface/LoginServiceInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/ServiceInterface/NoteServiceInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/ServiceInterface/PasswordServiceInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/image/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/image/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/image/slice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/sample/ajouterNote.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/sample/ajouterPassword.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/sample/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/sample/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/sample/sideBar.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/sample/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/AlertUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/Connexion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/DaoEngigne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/FxUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/HashageUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/MathUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/MotDePasse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/SearchUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/Session.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankE/util/SessionItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Bean/DBTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Bean/Note.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Bean/Password.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Bean/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/AjouterNoteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/AjouterPasswordController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/AjouterPasswordController$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/AjouterPasswordController$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/AjouterPasswordController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/DashBoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Controller/SideBarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/LoginThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/NoteThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/PasswordThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Service/LoginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Service/NoteService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/Service/PasswordService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/ServiceInterface/LoginServiceInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/ServiceInterface/NoteServiceInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/ServiceInterface/PasswordServiceInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/image/first.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/image/second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/image/slice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/sample/ajouterNote.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/sample/ajouterPassword.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/sample/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/sample/main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/sample/sideBar.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/sample/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/AlertUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/DaoEngigne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/DateUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/DbHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/FxUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/HashageUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/MotDePasse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/SearchUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/Session.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PasswordManagement/util/SessionItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bean/QuestionReponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ChercherPasswordContoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PasswordItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/QuestRepoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/QuestionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/chercherPassword.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/passwordIIem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/questionRepo.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/passwordmanagement.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/passwordmanagement.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bean/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bean/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bean/Password.java" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AjouterNoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AjouterNoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AjouterPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AjouterPasswordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SideBarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SideBarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/PasswordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/PasswordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceInterface/PasswordServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceInterface/PasswordServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sideBar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sideBar.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/AlertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/AlertUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DbHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/FxUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/FxUtil.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -223,81 +98,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/SideBarController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ChercherPasswordContoller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-end-line="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2034#2035#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/PasswordItemController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql/passwordmanagement.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="99" column="2" lean-forward="true" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Desktop/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/javafx/fxml/Initializable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/DaoEngigne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ServiceInterface/PasswordServiceInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/Service/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <caret line="26" column="72" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/NoteService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="40" column="5" selection-start-line="33" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -305,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/PasswordService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="637">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -315,27 +131,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/FxUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/Service/QuestionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="73">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/AjouterPasswordController.java">
+        <entry file="file://$PROJECT_DIR$/src/util/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="224" column="1" lean-forward="true" selection-start-line="217" selection-start-column="4" selection-end-line="224" selection-end-column="1" />
+            <state relative-caret-position="637">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/FxUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/util/HashageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/MotDePasse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/SearchUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/Session.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -413,7 +272,6 @@
         <option value="$PROJECT_DIR$/src/Controller/Main.java" />
         <option value="$PROJECT_DIR$/src/Controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/util/DaoEngigne.java" />
-        <option value="$PROJECT_DIR$/src/Controller/AjouterNoteController.java" />
         <option value="$PROJECT_DIR$/src/Controller/ChercherPassword.java" />
         <option value="$PROJECT_DIR$/src/sample/questionRepo.fxml" />
         <option value="$PROJECT_DIR$/src/Service/QuestionService.java" />
@@ -424,7 +282,6 @@
         <option value="$PROJECT_DIR$/src/Controller/QuestRepoController.java" />
         <option value="$PROJECT_DIR$/src/util/DbHelper.java" />
         <option value="$PROJECT_DIR$/src/Bean/Password.java" />
-        <option value="$PROJECT_DIR$/src/Controller/AjouterPasswordController.java" />
         <option value="$PROJECT_DIR$/src/Controller/SideBarController.java" />
         <option value="$PROJECT_DIR$/src/sample/chercherPassword.fxml" />
         <option value="$PROJECT_DIR$/src/util/AlertUtil.java" />
@@ -436,6 +293,8 @@
         <option value="$PROJECT_DIR$/src/Controller/ChercherPasswordContoller.java" />
         <option value="$PROJECT_DIR$/src/Controller/PasswordItemController.java" />
         <option value="$PROJECT_DIR$/sql/passwordmanagement.sql" />
+        <option value="$PROJECT_DIR$/src/Controller/AjouterNoteController.java" />
+        <option value="$PROJECT_DIR$/src/Controller/AjouterPasswordController.java" />
       </list>
     </option>
   </component>
@@ -447,7 +306,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="537" />
+    <option name="x" value="950" />
+    <option name="y" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -460,6 +320,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -472,75 +354,6 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="sql" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Bean" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="image" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ServiceInterface" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PasswordManagement" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="PasswordManagement" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -556,7 +369,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/IASUDOKO-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -732,7 +545,9 @@
       <workItem from="1591049650083" duration="36210000" />
       <workItem from="1591207454773" duration="34495000" />
       <workItem from="1591311677489" duration="15797000" />
-      <workItem from="1591441299492" duration="16893000" />
+      <workItem from="1591441299492" duration="18689000" />
+      <workItem from="1591615063424" duration="39000" />
+      <workItem from="1592779088629" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="first Commit">
       <created>1591315945843</created>
@@ -741,11 +556,18 @@
       <option name="project" value="LOCAL" />
       <updated>1591315945844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1591494114126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591494114127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168625000" />
+    <option name="totallyTimeSpent" value="172591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,9 +580,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56962025" visible="true" weight="0.22281879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56962025" visible="true" weight="0.23758389" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -842,10 +663,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="first Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first Commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -866,31 +687,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="3605" column="18" selection-start-line="3605" selection-start-column="18" selection-end-line="3605" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="26" column="72" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ajouterNote.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/image/slice.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -903,20 +699,6 @@
     <entry file="file://$PROJECT_DIR$/src/Client.java" />
     <entry file="file://$PROJECT_DIR$/src/util/MathUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/util/Connexion.java" />
-    <entry file="file://$PROJECT_DIR$/src/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/HashageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ServiceInterface/NoteServiceInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -925,28 +707,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/dashboard.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
           <caret line="11" column="213" selection-start-line="11" selection-start-column="213" selection-end-line="11" selection-end-column="213" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sideBar.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="140" column="59" lean-forward="true" selection-start-line="140" selection-start-column="59" selection-end-line="140" selection-end-column="59" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -968,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -992,54 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="24" column="63" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/SearchUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/DBTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/QuestionReponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding>
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bean/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/NoteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="40" column="5" selection-start-line="33" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Desktop/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/javafx/fxml/FXMLLoader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1074,9 +791,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/chercherPassword.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="50" column="175" selection-start-line="50" selection-start-column="175" selection-end-line="50" selection-end-column="175" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/questionRepo.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/AlertUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/passwordIIem.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="284" selection-start-line="11" selection-start-column="284" selection-end-line="11" selection-end-column="284" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/SideBarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/passwordmanagement.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="99" column="2" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/javafx/fxml/Initializable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/DaoEngigne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2332">
+          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServiceInterface/PasswordServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/DBTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bean/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bean/Password.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
+        <state relative-caret-position="637">
           <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1084,26 +899,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/chercherPassword.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/Bean/QuestionReponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="50" column="175" selection-start-line="50" selection-start-column="175" selection-end-line="50" selection-end-column="175" />
+        <state relative-caret-position="637">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+          <folding>
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/questionRepo.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/Bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="111" selection-start-line="45" selection-start-column="111" selection-end-line="45" selection-end-column="111" />
+        <state relative-caret-position="110">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AjouterNoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AjouterPasswordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="225" column="58" selection-start-line="225" selection-start-column="58" selection-end-line="225" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ChercherPasswordContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="96" column="38" selection-start-line="96" selection-end-line="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,6 +978,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="637">
           <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PasswordItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,89 +1001,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/AlertUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/passwordIIem.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="284" selection-start-line="11" selection-start-column="284" selection-end-line="11" selection-end-column="284" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AjouterNoteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AjouterPasswordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="224" column="1" lean-forward="true" selection-start-line="217" selection-start-column="4" selection-end-line="224" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/FxUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServiceInterface/PasswordServiceInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/Service/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <caret line="26" column="72" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/DaoEngigne.java">
+    <entry file="file://$PROJECT_DIR$/src/Service/NoteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="637">
+          <caret line="40" column="5" selection-start-line="33" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/PasswordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="637">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1214,49 +1028,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Desktop/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/javafx/fxml/Initializable.class">
+    <entry file="file://$PROJECT_DIR$/src/Service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/FxUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/MotDePasse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/SideBarController.java">
+    <entry file="file://$PROJECT_DIR$/src/util/SearchUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ChercherPasswordContoller.java">
+    <entry file="file://$PROJECT_DIR$/src/util/Session.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="96" column="38" lean-forward="true" selection-start-line="96" selection-end-line="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2115#2116#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/PasswordItemController.java">
+    <entry file="file://$PROJECT_DIR$/src/util/HashageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/passwordmanagement.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="99" column="2" lean-forward="true" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+        <state relative-caret-position="220">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

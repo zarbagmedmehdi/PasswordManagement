@@ -132,6 +132,7 @@ public class AjouterNoteController   implements Initializable {
 
 
     }
+    //lister les notes
     public void fetchNotes()
     {noteObservableList=FXCollections.observableList(new ArrayList<>());
         try {
@@ -146,6 +147,7 @@ public class AjouterNoteController   implements Initializable {
 
     }
 
+    //lister les notes par titre
     public void fetchNotesByTitre()
     {noteObservableList=FXCollections.observableList(new ArrayList<>());
         try {
@@ -160,18 +162,23 @@ public class AjouterNoteController   implements Initializable {
         noteListView.refresh();
 
     }
+
+    //Configuration du form
     public void form(Note nv,Boolean val) {
         titreField.setText(nv.getTitre());
         contenuTextArea.setText(nv.getContenu());
         titreField.setDisable(val);
         contenuTextArea.setDisable(val);
     }
+    //Configuration du form 2
+
     public void form1(Note nv,Boolean val) {
         titreField1.setText(nv.getTitre());
         contenuTextArea1.setText(nv.getContenu());
         titreField1.setDisable(val);
         contenuTextArea1.setDisable(val);
     }
+    //Recherche button event
     public void search(ActionEvent actionEvent) {
         fetchNotesByTitre();
     }

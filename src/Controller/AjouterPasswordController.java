@@ -71,6 +71,7 @@ TextField passwordFieldClear;
         passwordFieldClear.setVisible(false);
         passwordCombo.getSelectionModel().select(0);
         securityCombo.getSelectionModel().select(0);
+        // Appel RMI
         String u="rmi://localhost/passwordService";
 
         try {
@@ -87,7 +88,7 @@ TextField passwordFieldClear;
 
 
 
-
+///  Enregistrer le password
     public void enregister() throws Exception {
        if(!FxUtil.isFilled(passwordFieldClear)|| !FxUtil.isFilled(loginField))
        {
@@ -112,7 +113,7 @@ TextField passwordFieldClear;
     }
 
 
-
+//configuration  mot de passe basée sur un mot
     public void baseeSur() {
 
         passwordField.setText("");
@@ -120,6 +121,8 @@ TextField passwordFieldClear;
 
         baseSection.setVisible(true);
     }
+    //configuration  mot de passe aleatoire
+
     public void aleatoire() {
         passwordField.setText("");
         passwordFieldClear.setText("");
@@ -128,6 +131,7 @@ TextField passwordFieldClear;
         passwordFieldClear.setText(passwordField.getText());
 
     }
+    //montrer le mot de passe
     public void show(ActionEvent event) {
        if(passwordField.isVisible())
        { passwordFieldClear.setVisible(true);passwordField.setVisible(false); }
@@ -147,6 +151,7 @@ TextField passwordFieldClear;
            else clipBoard.setDisable(false);
         });
     }
+    //Remplissage de site combobox
     public void setSiteComboListenner(){
 
         siteCombo.getItems().addAll ( "twitter","facebook", "amazon","imdb","pinterest", "tripadvisor","instagram","instagram", "pinterest","tripadvisor","", "ebay","linkedin","apple", "microsoft",
@@ -164,6 +169,8 @@ TextField passwordFieldClear;
             }
         });
     }
+    //Remplissage de security combo
+
     public void securityComboListenner(){
         securityCombo.getItems().addAll ( "niveau:minimal","niveau:moyen","niveau:fort","niveau:puissant");
         securityCombo.valueProperty().addListener(new ChangeListener<String>() {
@@ -180,6 +187,8 @@ TextField passwordFieldClear;
             }
         });
     }
+    //Remplissage de password Type combobox
+
     public void passwordComboListenner(){
         passwordCombo.getItems().addAll ( "Choix d'utilisateur","Aléatoire","Basé");
         passwordCombo.valueProperty().addListener(new ChangeListener<String>() {
@@ -214,7 +223,7 @@ TextField passwordFieldClear;
 
         });
     }
-
+/// possibilité de copier le mot de passe en presse papier
     public void copyToclipBoard()
 
     {
